@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(python test_scraper.py:*)",
+      "Bash(python:*)",
+      "Bash(timeout 60 python:*)",
+      "Bash(full_analysis.txt)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
